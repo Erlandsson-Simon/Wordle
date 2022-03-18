@@ -8,8 +8,8 @@ using Rs = Raylib_cs;
 string gameName = "Wordle";
 char currentKey;
 
-// SAMMES KOD
-int row = 0, column = 0;
+int currentRow;
+int currentColum;
 
 R.InitWindow(1200, 800, gameName);
 R.SetTargetFPS(60);
@@ -37,9 +37,14 @@ while (!R.WindowShouldClose())
 
     R.EndDrawing();
 
+    (int, int) slotTuple = ArraySlot.Test();
+
+    currentRow = slotTuple.Item1;
+    currentColum = slotTuple.Item2;
+
     currentKey = Press.KeyPressed();
     if (currentKey != 0) {
-        letters[0, 0] = currentKey;
+        letters[currentRow, currentColum] = currentKey;
     } 
 }
 
