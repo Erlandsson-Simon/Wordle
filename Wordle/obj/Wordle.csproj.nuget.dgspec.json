@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\erlandsson.simon\\Documents\\Programering_1\\Wordle\\Wordle\\Wordle.csproj": {}
+    "C:\\Users\\Simon\\Documents\\Prog_1\\WinterProject\\Wordle\\Wordle\\Wordle.csproj": {}
   },
   "projects": {
-    "C:\\Users\\erlandsson.simon\\Documents\\Programering_1\\Wordle\\Wordle\\Wordle.csproj": {
+    "C:\\Users\\Simon\\Documents\\Prog_1\\WinterProject\\Wordle\\Wordle\\Wordle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\erlandsson.simon\\Documents\\Programering_1\\Wordle\\Wordle\\Wordle.csproj",
+        "projectUniqueName": "C:\\Users\\Simon\\Documents\\Prog_1\\WinterProject\\Wordle\\Wordle\\Wordle.csproj",
         "projectName": "Wordle",
-        "projectPath": "C:\\Users\\erlandsson.simon\\Documents\\Programering_1\\Wordle\\Wordle\\Wordle.csproj",
-        "packagesPath": "C:\\Users\\erlandsson.simon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\erlandsson.simon\\Documents\\Programering_1\\Wordle\\Wordle\\obj\\",
+        "projectPath": "C:\\Users\\Simon\\Documents\\Prog_1\\WinterProject\\Wordle\\Wordle\\Wordle.csproj",
+        "packagesPath": "C:\\Users\\Simon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Simon\\Documents\\Prog_1\\WinterProject\\Wordle\\Wordle\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\erlandsson.simon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Simon\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"

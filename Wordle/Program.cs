@@ -8,8 +8,8 @@ using Rs = Raylib_cs;
 string gameName = "Wordle";
 char currentKey;
 
-int currentRow;
-int currentColum;
+int currentRow = 0;
+int currentColum = 0;
 
 R.InitWindow(1200, 800, gameName);
 R.SetTargetFPS(60);
@@ -23,8 +23,6 @@ while (!R.WindowShouldClose())
 
     R.DrawRectangle(275, 0, 650, 750, Rs.Color.GRAY);
 
-
-
     for (var i = 0; i < letters.GetLength(0); i++)
     {
         for (var u = 0; u < letters.GetLength(1); u++)
@@ -34,10 +32,9 @@ while (!R.WindowShouldClose())
         }
     }
 
-
     R.EndDrawing();
 
-    (int, int) slotTuple = ArraySlot.Test();
+    (int, int) slotTuple = ArraySlot.Test(letters);
 
     currentRow = slotTuple.Item1;
     currentColum = slotTuple.Item2;

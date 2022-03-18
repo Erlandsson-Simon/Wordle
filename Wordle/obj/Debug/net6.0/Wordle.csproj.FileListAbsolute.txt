@@ -19,3 +19,11 @@ C:\Users\erlandsson.simon\Documents\Programering_1\Wordle\Wordle\obj\Debug\net6.
 C:\Users\erlandsson.simon\Documents\Programering_1\Wordle\Wordle\obj\Debug\net6.0\Wordle.pdb
 C:\Users\erlandsson.simon\Documents\Programering_1\Wordle\Wordle\obj\Debug\net6.0\Wordle.genruntimeconfig.cache
 C:\Users\erlandsson.simon\Documents\Programering_1\Wordle\Wordle\obj\Debug\net6.0\ref\Wordle.dll
+C:\Users\Simon\Documents\Prog_1\WinterProject\Wordle\Wordle\obj\Debug\net6.0\Wordle.csproj.AssemblyReference.cache
+C:\Users\Simon\Documents\Prog_1\WinterProject\Wordle\Wordle\obj\Debug\net6.0\Wordle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Simon\Documents\Prog_1\WinterProject\Wordle\Wordle\obj\Debug\net6.0\Wordle.AssemblyInfoInputs.cache
+C:\Users\Simon\Documents\Prog_1\WinterProject\Wordle\Wordle\obj\Debug\net6.0\Wordle.AssemblyInfo.cs
+C:\Users\Simon\Documents\Prog_1\WinterProject\Wordle\Wordle\obj\Debug\net6.0\Wordle.csproj.CoreCompileInputs.cache
+C:\Users\Simon\Documents\Prog_1\WinterProject\Wordle\Wordle\obj\Debug\net6.0\Wordle.dll
+C:\Users\Simon\Documents\Prog_1\WinterProject\Wordle\Wordle\obj\Debug\net6.0\refint\Wordle.dll
+C:\Users\Simon\Documents\Prog_1\WinterProject\Wordle\Wordle\obj\Debug\net6.0\Wordle.pdb
