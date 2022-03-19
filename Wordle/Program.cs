@@ -34,15 +34,13 @@ while (!R.WindowShouldClose())
 
     R.EndDrawing();
 
-    (int, int) slotTuple = ArraySlot.Test(letters);
-
-    currentRow = slotTuple.Item1;
-    currentColum = slotTuple.Item2;
+    currentColum = ArraySlot.TestX(letters);
 
     currentKey = Press.KeyPressed();
+    
     if (currentKey != 0) {
         letters[currentRow, currentColum] = currentKey;
     } 
 }
 
-R.CloseWindow();
+R.CloseWindow();    

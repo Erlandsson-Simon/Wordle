@@ -1,14 +1,24 @@
-class ArraySlot {
-    public static (int, int) Test(char[,] letters) {
+class ArraySlot
+{
+    public static int TestX(char[,] letters)
+    {
+
+        int temp;
+
         for (var i = 0; i < letters.GetLength(0); i++)
         {
-            for (var u = 0; u < letters.GetLength(1); u++)
+            temp = letters[u, i].CompareTo('\0');
+
+            if (temp == 0)
             {
-                if (letters[i,u] == '\0') {
-                    return (i, u);
-                }
+                return (i);
             }
+
         }
-        return (-1, -1);
+        return (-1);
+    }
+    
+    public static int TestY() {
+        if(R.KeyPressed(R.))
     }
 }
