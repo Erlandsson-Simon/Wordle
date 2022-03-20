@@ -1,9 +1,9 @@
-﻿using System;
-using System.Numerics;
-using System.Collections.Generic;
-using System.Linq;
-using R = Raylib_cs.Raylib;
-using Rs = Raylib_cs;
+﻿global using System;
+global using System.Numerics;
+global using System.Collections.Generic;
+global using System.Linq;
+global using R = Raylib_cs.Raylib;
+global using Rs = Raylib_cs;
 
 string gameName = "Wordle";
 char currentKey;
@@ -34,9 +34,16 @@ while (!R.WindowShouldClose())
 
     R.EndDrawing();
 
-    currentColum = ArraySlot.TestX(letters);
+    currentColum = ArraySlot.TestX(letters, currentRow);
+    currentRow = ArraySlot.TestY(currentRow);
 
     currentKey = Press.KeyPressed();
+    Console.WriteLine(currentKey);
+
+    // if(currentKey = "ENTER") {
+
+    // }
+
     
     if (currentKey != 0) {
         letters[currentRow, currentColum] = currentKey;

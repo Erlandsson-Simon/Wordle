@@ -1,13 +1,13 @@
 class ArraySlot
 {
-    public static int TestX(char[,] letters)
+    public static int TestX(char[,] letters, int currentRow)
     {
 
         int temp;
 
         for (var i = 0; i < letters.GetLength(0); i++)
         {
-            temp = letters[u, i].CompareTo('\0');
+            temp = letters[currentRow, i].CompareTo('\0');
 
             if (temp == 0)
             {
@@ -18,7 +18,10 @@ class ArraySlot
         return (-1);
     }
     
-    public static int TestY() {
-        if(R.KeyPressed(R.))
+    public static int TestY(int currentRow) {
+        if(R.IsKeyDown(Rs.KeyboardKey.KEY_ENTER)) {
+            currentRow += 1;
+        }
+        return currentRow;
     }
 }
